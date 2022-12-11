@@ -3,7 +3,7 @@ import { Navbar, Home} from "./components";
 import Rmenu from "./components/Rmenu";
 
 function App() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => {
     setIsOpen(!isOpen);
