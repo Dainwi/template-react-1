@@ -7,7 +7,7 @@ import { FaTimes } from "react-icons/fa";
 const DropdownContainer = styled.div`
   position: fixed;
   z-index: 999;
-  width: 50%;
+  width: 75%;
   height: 100%;
   background: #cd853f;
   display: grid;
