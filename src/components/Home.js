@@ -36,6 +36,22 @@ const HeroWrapper = styled.div`
     font-size: 1rem;
     letter-spacing: 8px;
   }
+
+  @media screen and (max-width: 768px) {
+    h1{
+      font-size: 3rem;
+      letter-spacing: 15px;
+      color: #fff;
+    }
+    p{
+      font-size: 1rem;
+      letter-spacing: 2px;
+      color: #fff;
+    }
+    h1, p{
+      margin: 1rem 0;
+    }
+  }
 `;
 
 const HeroImage = styled.img`
@@ -59,6 +75,11 @@ const Button = styled.button`
   width: 10vw;
   margin-top: 12px;
   z-index: 10;
+  @media screen and (max-width: 768px) {
+    margin-top: 9rem;
+    opacity: 100%;
+    width: 31vw;
+  }
 `;
 
 const HomeGraphic = styled.div`
@@ -69,6 +90,11 @@ const HomeGraphic = styled.div`
   height: 1px;
   width: 20%;
   border-radius: 10px;
+  @media screen and (max-width: 768px) {
+    top: 326px;
+    width: 61%;
+    background-color: #fff;
+  }
 `;
 
 export const Home = () => {
